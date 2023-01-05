@@ -1,0 +1,114 @@
+:root {
+    --heading-text-color: #2E2F42;
+    --primary-text-color: #434455;
+    --hero-title-color: #FFFFFF;
+    --hover-focus-color: #4D5AE5;
+    --footer-logo-color: #F4F4FD;
+    --footer-text: #E7E9FC;
+    --button-backgrnd-color-accent: #404BBF;
+
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* header logo */
+.header-logo {
+    color: var(--heading-text-color);
+}
+.header-logo span {
+    color: var(--hover-focus-color);
+}
+.header-logo:hover,
+.header-logo:focus {
+    color: var(--hover-focus-color);
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--heading-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--hover-focus-color);
+}
+
+.site-nav .link.current {
+    color: var(--hover-focus-color);
+}
+
+/* contacts */
+.contacts {
+    color: var(--primary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--hover-focus-color);
+}
+
+/* Hero */
+.hero-title {
+    color: var(--hero-title-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--heading-text-color);
+}
+
+/* Features */
+.features .title {
+    color: var(--heading-text-color);
+}
+
+/* Team */
+.team-title {
+    color: var(--heading-text-color);
+}
+
+/* Buttons */
+.button {
+    color: var(--hero-title-color);
+    background-color: var(--hover-focus-color);
+    cursor: pointer;
+}
+.button.filters {
+    color: var(--hover-focus-color);
+    background-color: var(--footer-logo-color);
+}
+.button.filters:hover,
+.button.filters:focus {
+    color: var(--hero-title-color);
+    background-color: var(--button-backgrnd-color-accent);
+}
+
+/* Footer */
+.footer-logo {
+    color: var(--footer-logo-color);
+}
+.footer-logo span {
+    color: var(--hover-focus-color);
+}
+.footer p {
+    color: var(--footer-text);
+}
+
+/* Styles for portfolio */
+.portfolio-title {
+    color: var(--heading-text-color);
+}
+.portfolio p {
+    color: var(--primary-text-color);
+}
+.portfolio .link:hover,
+.portfolio .link:focus {
+    color: var(--hover-focus-color);
+ }

@@ -5,101 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header>
       <nav>
-        <a href="">Webstudio</a>
-
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html" class="header-logo"><span>Web</span>studio</a>
+    
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Studio</a></li>
+          <li><a href="./portfolio.html" class="link current">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
         </ul>
       </nav>
-
+    
       <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+11 (000) 111-11-11</a></li>
+        <li><a href="" class="contacts">info@devstudio.com</a></li>
+        <li><a href="" class="contacts">+11 (000) 111-11-11</a></li>
       </ul>
     </header>
 
+
     <main>
-        
-        <section>
-            <ul>
-                <li><button type="button">All</button></li>
-                <li><button type="button">Web Site</button></li>
-                <li><button type="button">App</button></li>
-                <li><button type="button">Design</button></li>
-                <li><button type="button">Marketing</button></li>
-            </ul>
+      <!--Filter buttons-->
+      <section>
+        <ul>
+          <li><button type="button" class="button filters">All</button></li>
+          <li><button type="button" class="button filters">Web Site</button></li>
+          <li><button type="button" class="button filters">App</button></li>
+          <li><button type="button" class="button filters">Design</button></li>
+          <li><button type="button" class="button filters">Marketing</button></li>
+        </ul>
+      </section>
 
-        </section>
-        
-        <section>
-            <ul>
-                <li>
-                    <a href=""></a>
-                    <img src="./" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-                <li>
-                    <a href=""></a>
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p></p>
-                </li>
-            </ul>
-        </section>
-
+      <!--Photo examples-->
+      <section>
+        <ul class="portfolio">
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img1.jpg" alt="banking app" width="360" />
+              <h1 class="portfolio-title">Banking App Interface Concept</h1>
+              <p>App</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img2.jpg" alt="Cashless Payment" width="360" />
+              <h1 class="portfolio-title">Cashless Payment</h1>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img3.jpg" alt="Meditaion App" width="360" />
+              <h1 class="portfolio-title">Meditaion App</h1>
+              <p>App</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img4.jpg" alt="Taxi Service" width="360" />
+              <h1 class="portfolio-title">Taxi Service</h1>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img5.jpg" alt="Screen Illustrations" width="360"/>
+              <h1 class="portfolio-title">Screen Illustrations</h1>
+              <p>Design</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img6.jpg" alt="Woman with phone" width="360" />
+              <h1 class="portfolio-title">Online Courses</h1>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img7.jpg" alt="Instagram Stories" width="360" />
+              <h1 class="portfolio-title">Instagram Stories Concept</h1>
+              <p>Design</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img8.jpg" alt="Organic Food" width="360" />
+              <h1 class="portfolio-title">Organic Food</h1>
+              <p>Web Site</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <img src="./portfolio.img/img9.jpg" alt="Fresh Coffee" width="360" />
+              <h1 class="portfolio-title">Fresh Coffee</h1>
+              <p>Web Site</p>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
-      <a href="">Webstudio</a>
+    <!--Footer-->
+    <footer class="footer">
+      <a href="./index.html" class="footer-logo"><span>Web</span>studio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
